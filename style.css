@@ -82,10 +82,16 @@
 
 .service-card {
     width: 260px;
-    padding: 20px;
+    padding: 22px;
     background: #ffffff;
     border: 1px solid #ddd;
+    border-radius: 14px;      
     text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
 }
 
 .service-card h3 {
